@@ -43,15 +43,18 @@ function App() {
       onChange = {setJs}
       />
      </div>
-     <div className="pen"></div>
-     <iframe
-     srcDoc={srcDoc}
+     <div className="pen">
+      <iframe
+      srcDoc={srcDoc}
       title="output"
       sandbox="allow-scripts"
       frameBorder= "0"
       width= "100%"
       height= "100%"
-     />
+      />
+
+     </div>
+     
      
     </>
   )
